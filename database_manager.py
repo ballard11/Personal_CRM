@@ -19,8 +19,7 @@ class DatabaseManager:
                 birthday TEXT,
                 address TEXT,
                 category TEXT,
-                notes TEXT,
-                image BLOB
+                notes TEXT
             )
         ''')
         # Create categories table

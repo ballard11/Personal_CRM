@@ -1,3 +1,45 @@
+# Personal CRM
+
+A desktop Personal Customer Relationship Management (CRM) application built with Python and PyQt5. This application allows users to manage their contacts, including features such as contact details, categorization, birthday reminders, and data import/export capabilities.
+
+![Personal CRM Screenshot](assets/crm_screenshot.png)
+
+## Features
+
+- Add, edit, and delete contacts
+- Categorize contacts
+- Search functionality
+- Birthday reminders
+- Data validation
+- Import/Export contacts (JSON format)
+
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/personal-crm.git
+   cd personal-crm
+   ```
+
+2. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+Run the application:
+```
+python main.py
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 Notes on the Implemented Features
 MVC Architecture: The code is restructured into Model (models.py), View (main.py), and Controller (controller.py).
 UI Improvements:
@@ -21,3 +63,5 @@ User Authentication: Planning to add user authentication to secure data.
 Interaction History: Could be implemented by adding an interactions table and corresponding UI elements.
 Reminders: Implement reminders for birthdays and other important dates.
 Import/Export in Multiple Formats: Extend the export functionality to support CSV and vCard formats.
+
+
