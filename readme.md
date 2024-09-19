@@ -39,6 +39,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Notes on the Implemented Features:
-MVC Architecture: The code is restructured into Model (models.py), View (main.py), and Controller (controller.py).
